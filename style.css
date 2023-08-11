@@ -1,0 +1,62 @@
+
+.grad {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to right, #0a0a0a, #0f0e14, #13111b, #161422, #181729, #191830, #191837, #19193e, #171746, #14154f, #121357, #0f0f5f);    background-attachment: fixed;
+    z-index: -1;
+}
+
+ 
+/*  BARRA DE NAVEGACION  */
+.navbar {
+    background-image: linear-gradient(to right, #0a0a0a, #0f0e14, #13111b, #161422, #181729, #191830, #191837, #19193e, #171746, #14154f, #121357, #0f0f5f);
+} 
+.navbar-collapse {
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 40px;
+}
+.nav-item {
+    padding-inline: 30px;
+
+}
+
+.nav-link {
+    color: wheat;
+}
+
+.nav-link:hover {
+    transition: 0.3s;
+    color: white;
+}
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+.navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/*  HERO SECTION */
+h1 {
+    color: white;
+    font-size: 90px;
+    font-weight: 700;
+    padding: 50px;  
+}
+
+.ideas {
+    color: #F5F749;
+}
+
+h2 {
+    max-width: 1200px;
+    color: grey;
+    font-size: 30px;
+    padding: 0 50px;
+}
